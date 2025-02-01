@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:905418227266:task-definition/ecs-lab:2"
         LoadBalancerInfo:
-          ContainerName: "sample-application"
+          ContainerName: "sample-website"
           ContainerPort: 80
