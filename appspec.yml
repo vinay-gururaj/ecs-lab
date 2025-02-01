@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "TASK-DEFINITION-ARN"
+        TaskDefinition: "arn:aws:ecs:us-east-1:905418227266:task-definition/ecs-lab:2"
         LoadBalancerInfo:
           ContainerName: "httpd"
           ContainerPort: 80
